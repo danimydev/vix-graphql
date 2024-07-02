@@ -4,14 +4,11 @@
   "main": "index.js",
   "scripts": {
     "build": "tsup",
-    "start": "node ./scripts/start.js",
-    "start:dev": "NODE_ENV=development node ./scripts/start.js",
     "dev:tsc": "tsc --watch --preserveWatchOutput",
     "dev:node": "node --watch dist/index.js",
     "dev:tsup": "tsup --watch",
     "dev": "run-p dev:*",
-    "codegen": "graphql-codegen",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "codegen": "graphql-codegen"
   },
   "author": "",
   "license": "ISC",
